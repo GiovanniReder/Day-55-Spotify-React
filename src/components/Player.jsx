@@ -7,7 +7,7 @@ import next from "../assets/images/next.png";
 import repeat from "../assets/images/repeat.png";
 import { Button } from "react-bootstrap";
 
-function Player() {
+const Player = () => {
   return (
     <>
       <Navbar className="bg-dark  fixed-bottom">
@@ -41,6 +41,6 @@ function Player() {
       </Navbar>
     </>
   );
-}
+};
 
 export default Player;
