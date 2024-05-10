@@ -12,27 +12,27 @@ function Player() {
     <>
       <Navbar className="bg-dark  fixed-bottom">
         <Container className="mx-auto d-flex flex-column">
-          <div className="row  mx-auto p-3">
-            <div className="mx-auto">
-              <div className="col-2 d-flex mx-auto align-self-center ">
-                <Button className="bg-dark border-0">
+          <div className="row   mx-auto p-3">
+            <div className="">
+              <div className=" d-flex mx-auto w-75 align-self-center ">
+                <Button className="bg-dark mx-2 border-0">
                   <img src={shuffle} width="10" height="10" className="d-inline-block " alt="React Bootstrap logo" />
                 </Button>
-                <Button className="bg-dark border-0">
+                <Button className="bg-dark mx-2 border-0">
                   <img src={prev} width="10" height="10" className="d-inline-block " alt="React Bootstrap logo" />
                 </Button>
-                <Button className="bg-dark border-0" href="#home">
+                <Button className="bg-dark mx-2 border-0" href="#home">
                   <img src={play} width="15" height="15" className="d-inline-block " alt="React Bootstrap logo" />
                 </Button>
-                <Button className="bg-dark border-0" href="#home">
+                <Button className="bg-dark mx-2 border-0" href="#home">
                   <img src={next} width="10" height="10" className="d-inline-block " alt="React Bootstrap logo" />
                 </Button>
-                <Button className="bg-dark border-0" href="#home">
+                <Button className="bg-dark mx-2 border-0" href="#home">
                   <img src={repeat} width="10" height="10" className="d-inline-block " alt="React Bootstrap logo" />
                 </Button>
               </div>
 
-              <div className="progress d-flex  align-self-center mx-auto">
+              <div className="progress d-flex mt-2 align-self-center mx-auto">
                 <div role="progressbar"></div>
               </div>
             </div>

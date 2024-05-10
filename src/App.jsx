@@ -8,18 +8,20 @@ import MusicCards3 from "./components/MusicCard3";
 import Player from "./components/Player";
 function App() {
   return (
-    <div className="App container bg-dark">
-      <div className="row">
-        <div className="col col-2">
-          <Sidebar />
+    <div className="App  body bg-dark">
+      <div className="container">
+        <div className="row ">
+          <div className="col col-2">
+            <Sidebar />
+          </div>
+          <div className="  col-10">
+            <Main />
+            <MusicCards />
+            <MusicCards2 />
+            <MusicCards3 />
+          </div>
+          <Player />
         </div>
-        <div className="col body col-10">
-          <Main />
-          <MusicCards />
-          <MusicCards2 />
-          <MusicCards3 />
-        </div>
-        <Player />
       </div>
     </div>
   );

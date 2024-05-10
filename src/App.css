@@ -117,7 +117,7 @@ ul {
   color: white;
   background-color: #414141;
   height: 3px;
-  width: 100%;
+  width: 120%;
 }
 
 @media screen and (min-width: 1200px) {
