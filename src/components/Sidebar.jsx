@@ -1,8 +1,9 @@
-import { Form, NavLink } from "react-bootstrap";
+import { NavLink } from "react-bootstrap";
 import logo from "../assets/images/logo.png";
 import Container from "react-bootstrap/Container";
 import Navbar from "react-bootstrap/Navbar";
 import Button from "react-bootstrap/Button";
+import Searchbar from "../components/Searchbar";
 const Sidebar = () => {
   return (
     <>
@@ -37,12 +38,7 @@ const Sidebar = () => {
             </svg>
             &nbsp; Your Library
           </Navbar.Brand>
-          <Form className="d-flex">
-            <Form.Control type="search" placeholder="Search" className="me-2" aria-label="Search" />
-            <Button className="text-secondary  border border-secondary" variant="black">
-              Go
-            </Button>
-          </Form>
+          <Searchbar />
         </Container>
         <Container className="d-flex flex-column justify-content-end align-items-start text-end mb-0 my-auto">
           <Button className="signup-btn rounded-pill my-2 mx-auto px-5" variant="light">

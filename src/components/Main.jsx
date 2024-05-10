@@ -3,7 +3,7 @@ import { Container, Navbar } from "react-bootstrap";
 const Main = () => {
   return (
     <>
-      <Navbar className="bg-transparent ">
+      <Navbar className="bg-transparent d-none d-md-flex ">
         <Container className="d-flex flex-wrap">
           <Navbar.Brand style={{ fontSize: "15px" }} className="text-secondary ms-5">
             TRENDING
